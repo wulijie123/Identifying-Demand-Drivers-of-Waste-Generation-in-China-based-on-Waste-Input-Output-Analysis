@@ -8,21 +8,21 @@ This repository implements the calculation workflow for identifying demand drive
 WIO_China_2020/
 │
 ├── data/
-│   ├── WIO_table(2020).xlsx
-│   └── y_scenario.xlsx
+│   ├── WIO_table(2020).xlsx             # 2020 China WIO table
+│   └── y_scenario.xlsx                  # Final demand matrix for different scenarios
 │
-├── generation_footprint_cal.py
-├── recycle_footprint_cal.py
-├── net_footprint_cal.py
-├── scenarios_cal.py
+├── generation_footprint_cal.py          # Solid waste generation footprint calculation
+├── recycle_footprint_cal.py             # Solid waste recycling footprint calculation
+├── net_footprint_cal.py                 # Net solid waste footprint calculation
+├── scenarios_cal.py                     # Net solid waste footprint calculation for different scenarios
 │
 └── result/
-    ├── result_generation.xlsx
-    ├── result_recycle.xlsx
-    ├── result_net_all.xlsx
-    ├── result_net_p.xlsx
+    ├── result_generation.xlsx           # Solid waste generation footprint results
+    ├── result_recycle.xlsx              # Solid waste recycling footprint results
+    ├── result_net_all.xlsx              # Net solid waste footprint results
+    ├── result_net_p.xlsx                # Net solid waste footprint results by final demand
     │
-    └── scenarios/
+    └── scenarios/                       # Results for different scenarios
         ├── RCC/
         ├── UCC/
         └── GCC/
